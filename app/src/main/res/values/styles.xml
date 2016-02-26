@@ -1,0 +1,90 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="parent_layout">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="sign_up_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="Sub_text_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="Ed_padding">
+        <item name="android:padding">10sp</item>
+        <item name="android:width">200dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="Birthday">
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+    <style name="Providing_Dob">
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_marginLeft">5sp</item>
+    </style>
+    <style name="Spinners">
+        <item name="android:padding">6sp</item>
+
+    </style>
+    <style name="maring_gender">
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <style name="gender_layout_margin">
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+    <style name="Terms_and_Conditions_Text_Size">
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="Button_bg">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">#29873d</item>
+        <item name="android:padding">2sp</item>
+    </style>
+    <style name="View_margin">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="Celebrating">
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Login_style">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">6dp</item>
+        </style>
+
+    <style name="second_activity_view_style">
+        <item name="android:layout_marginLeft">6dp</item>
+    </style>
+    <style name="second_activity_password_style">
+        <item name="android:layout_marginTop">10dp</item></style>
+<style name="second_activity_pmargin">
+        <item name="android:layout_marginTop">10dp</item>
+
+    </style>
+    <style name="second_activity_button">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">50dp</item>
+
+    </style>
+</resources>

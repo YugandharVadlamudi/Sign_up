@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/second_tv2"
+            style="@style/Login_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/second_activity_login" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/linear_layout_border"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/contact_iv2"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/user_icon" />
+
+            <View
+                android:id="@+id/view_1"
+                style="@style/second_activity_view_style"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/second_activity_View_color" />
+
+            <EditText
+                android:id="@+id/Ed_User_name2"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@color/second_activity_backround_color"
+                android:gravity="center"
+                android:hint="@string/second_activity_Username"
+                android:inputType="text"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/second_activity_pmargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/linear_layout_border"
+            android:orientation="horizontal"
+            android:padding="5dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/password_iv2"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/password" />
+
+            <View
+                android:id="@+id/view_2"
+                style="@style/second_activity_view_style"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/second_activity_View_color" />
+
+            <EditText
+                android:id="@+id/password_ed2"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@color/second_activity_backround_color"
+                android:gravity="center"
+                android:hint="@string/second_activity_Password"
+                android:inputType="text"
+                android:password="true" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_login2"
+            style="@style/second_activity_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/second_activity_Login"
+            android:text="@string/second_activity_button" />
+
+    </LinearLayout>
+</RelativeLayout>

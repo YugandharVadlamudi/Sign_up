@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Sign_up</string>
+    <string name="signe_up">Sign Up</string>
+    <string name="sub">its free and always will be</string>
+    <string name="First_name">First name</string>
+    <string name="Sur_name">Surname</string>
+    <string name="Email_mobile">Email or mobile number</string>
+    <string name="reEmail_mobile">Re-enter Email or mobile number</string>
+    <string name="Password">New Password</string>
+    <string name="Birthday">Birthday</string>
+    <string name="Providig_Dob">Why do i need to provide my date of birth</string>
+    <string name="Gender_F">Female</string>
+    <string name="Gender_M">Male</string>
+    <string name="Terms_and_Conditions">By Clicking to Sign Up,you agree to terms that u hve to read our policy. Including our Cookie use
+    </string>
+    <string name="SignUp_Text">Sign Up</string>
+    <string name="click_me"><u>Click me</u></string>
+    <string name="Celebrating">  for celebrating band business</string>
+    <string name="second_activity_login">LogIn</string>
+    <string name="second_activity_Username">enter user name</string>
+    <string name="second_activity_Password">enter your password</string>
+    <string name="second_activity_button">Login</string>
+
+    <string name="second_activity_title">second_activity</string>
+
+
+
+
+
+    <!-- Day spinner-->
+    <string-array name="day">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+    </string-array>
+    <!-- month spinner-->
+    <string-array name="Month">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+    </string-array>
+    <!-- year spinner-->
+    <string-array name="year">
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
